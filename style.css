@@ -1,0 +1,280 @@
+*{
+
+	margin:0;
+	padding: 0;
+}
+
+.esas{
+	width: 1000px;
+	border:1px solid black;
+	--position: relative;
+}
+
+.bir_bir {
+	width: 100%;
+	height:800px;
+	position: relative;
+	background-image: url('img/hero-bg.jpg');
+	
+}
+
+.bir_paraqraf p:first-child {
+
+	position: absolute;
+	top:380px;
+	left:400px;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+
+.bir_paraqraf p:last-child {
+
+	position: absolute;
+	top:450px;
+	left:350px;
+	color:gray;
+	font-size: 18px;
+}
+span{
+	color: gray;
+}
+
+.buton {
+
+	width:200px;
+	
+	background-color: green;
+	position: absolute;
+	top:550px;
+	left:450px;
+	border-radius: 10px;
+	color:white;
+	font-size: 15px;
+	box-shadow: 10px 10px 10px black;
+	
+}
+.buton p {
+	margin: 20px auto;
+	text-align: center;
+}
+
+/*.bir_iki {
+	width:100%;
+	position: relative;
+}
+
+.bir_iki div:first-child {
+
+	position: absolute;
+	top: 50px;
+	left:400px;
+}
+
+.bir_iki div:nth-child(2) {
+
+	position: absolute;
+	top: 100px;
+	left:330px;
+}
+.bir_iki div:nth-child(3) {
+
+	width: 600px;
+	position: absolute;
+	top: 130px;
+	left:170px;
+	text-align:center;
+}
+.iki {
+
+	width: 100%;
+}
+
+.yuxari {
+
+	width:100%;
+}
+*/
+
+.bir_iki {
+	margin-top: 20px;
+	width:100%;
+	padding-bottom: 80px;
+}
+
+.bir_iki div{
+
+	width:100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.bir_iki div:first-child {
+
+	font-size: 30px; letter-spacing: 5
+}
+.bir_iki div:last-child p{
+
+	width: 500px;
+	margin-left:auto;
+	margin-right: auto;
+	color:gray;
+	font-size: 20px;
+}
+
+.iki {
+
+	width: 100%;
+	background-color: lightgray;
+}
+
+.yuxari{
+
+	padding-top:100px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.yuxari img {
+
+	padding-top: 40px;
+}
+
+.orta {
+margin-top: 80px;
+width: 100%;
+overflow: auto;
+}
+
+.orta .orta_sol, .orta .orta_orta, .orta .orta_sag {
+
+	width: 330px;
+	float: left;
+	text-align: center;
+}
+
+.daire {
+
+	width: 150px;
+	--height: 150px;
+	border-radius: 50%;
+	background-color: green;
+	color:white;
+	margin: 30px auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+
+}
+
+.daire p {
+
+	line-height: 50px;
+
+}
+.iki_paraqraf p:last-child{
+
+	width: 300px;
+	margin: 30px auto;
+	color: gray;
+
+}
+
+.asagi {
+	margin-top: 60px;
+	width:100%;
+	overflow: auto;
+
+}
+
+.asagi_sol {
+	float: left;
+	width: 500px;
+	height:600px;
+	background-image: url('img/iphone-bg.png');
+}
+
+.asagi_sag{
+
+	float: left;
+	text-align: center;
+	width: 500px;
+}
+
+.asagi_sag p{
+
+	text-align: center;
+	width: 400px;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+.asagi_sag p:last-child{
+
+	
+	text-align: center;
+	margin-top: 50px;
+	color:gray;
+}
+
+
+
+.uc {
+
+	margin-top:80px;
+	width:100%;
+	position: relative;
+}
+.uc_yuxari{
+
+	
+	width: 100%;
+
+}
+.uc_yuxari img{
+	
+	object-fit: cover;
+}
+
+.uc_yuxari p {
+
+	position: absolute;
+	top:30px;
+	margin-left: auto;
+	left:400px;
+	color: white;
+	font-size: 40px;
+}
+.uc_yuxari p:last-child{
+
+	margin-top: 40px;
+}
+
+.uc_asagi {
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	overflow: auto;
+}
+
+.uc_asagi_sol, .uc_asagi_orta, .uc_asagi_sag {
+
+	float: left;
+	width:330px;
+}
+
+.first{
+
+	font-size: 30px;
+	color:gray;
+	margin-bottom: 20px;
+}
+.last {
+font-size: 20px;
+	color:gray;
+
+}
+
+
+
+
